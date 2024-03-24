@@ -10,3 +10,8 @@ import numpy as np
 
 df_2016 =pd.read_csv('properties_2016.csv')
 df_train_2016 =pd.read_csv('train_2016_v2.csv', parse_dates=["transactiondate"])
+
+
+# EDA - 2016
+print(df_2016.shape)
+display(df_2016.head())
